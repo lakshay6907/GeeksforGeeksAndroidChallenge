@@ -70,3 +70,8 @@ In developing this project, the following decisions were made:
 3. Coil for Image Loading: Coil was selected as the image loading library due to its lightweight nature and excellent performance. It simplifies the process of      loading and caching images from URLs, ensuring fast and efficient image loading in the app.
 4. LiveData for Data Observing: LiveData was chosen as the data observation mechanism in the ViewModel to enable reactive updates of the UI when data changes.        LiveData provides lifecycle-awareness, ensuring that UI components only receive updates when they are active, avoiding memory leaks and unnecessary UI updates.
 
+## Project Scope
+   The scope of this project is intentionally kept small to focus on a specific set of functionalities. As a result, certain features and functionalities that are    typically found in more comprehensive applications may not be implemented here.
+
+   The decision to limit the scope allows for a more focused development approach, enabling quicker implementation and a simplified codebase. This project aims to    demonstrate specific concepts and showcase particular features without overwhelming complexity.
+
