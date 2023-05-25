@@ -65,7 +65,8 @@ The GeeksforGeeks Android Challenge is an Android application that fetches news 
 
 In developing this project, the following decisions were made:
 
-1. Retrofit for Network Communication: Retrofit was chosen as the networking library for its simplicity, performance, and compatibility with the RESTful API used    in the project. It provides a clean and intuitive way to define API endpoints and handle network requests and responses.
-2. Coil for Image Loading: Coil was selected as the image loading library due to its lightweight nature and excellent performance. It simplifies the process of      loading and caching images from URLs, ensuring fast and efficient image loading in the app.
-3. LiveData for Data Observing: LiveData was chosen as the data observation mechanism in the ViewModel to enable reactive updates of the UI when data changes.        LiveData provides lifecycle-awareness, ensuring that UI components only receive updates when they are active, avoiding memory leaks and unnecessary UI updates.
+1. Architecture: The decision to use the MVVM (Model-View-ViewModel) architecture was made to separate the concerns of data management and user interface. This      architecture promotes testability, modularity, and maintainability by providing a clear separation of responsibilities.
+2. Retrofit for Network Communication: Retrofit was chosen as the networking library for its simplicity, performance, and compatibility with the RESTful API used    in the project. It provides a clean and intuitive way to define API endpoints and handle network requests and responses.
+3. Coil for Image Loading: Coil was selected as the image loading library due to its lightweight nature and excellent performance. It simplifies the process of      loading and caching images from URLs, ensuring fast and efficient image loading in the app.
+4. LiveData for Data Observing: LiveData was chosen as the data observation mechanism in the ViewModel to enable reactive updates of the UI when data changes.        LiveData provides lifecycle-awareness, ensuring that UI components only receive updates when they are active, avoiding memory leaks and unnecessary UI updates.
 
