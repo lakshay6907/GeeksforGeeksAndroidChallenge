@@ -60,3 +60,12 @@ The GeeksforGeeks Android Challenge is an Android application that fetches news 
 4. Viewholder: Includes custom views to show the articles on the screen coming from the remote server.
 5. ViewModel: Defines the NewsViewModel class that handles the data and business logic for the news articles.
 6. MainActivity: The main entry point of the application, responsible for setting up the ViewModel and observing the data changes.
+
+## Decisions Taken
+
+In developing this project, the following decisions were made:
+
+1. Retrofit for Network Communication: Retrofit was chosen as the networking library for its simplicity, performance, and compatibility with the RESTful API used    in the project. It provides a clean and intuitive way to define API endpoints and handle network requests and responses.
+2. Coil for Image Loading: Coil was selected as the image loading library due to its lightweight nature and excellent performance. It simplifies the process of      loading and caching images from URLs, ensuring fast and efficient image loading in the app.
+3. LiveData for Data Observing: LiveData was chosen as the data observation mechanism in the ViewModel to enable reactive updates of the UI when data changes.        LiveData provides lifecycle-awareness, ensuring that UI components only receive updates when they are active, avoiding memory leaks and unnecessary UI updates.
+
